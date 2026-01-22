@@ -15,10 +15,7 @@ These badges share the same format, but differ in style. For more variations, ch
 
 ## Table of Contents
 
-- [⭐ Recommended Resource](#-recommended-resource)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
-- [Badges](#badges)
+- [Badges Categories](#badges-categories)
   - [🧑‍💻 Languages](#-languages)
   - [🛠️ Compilers](#️-compilers)
   - [🛠️ Build Tools](#️-build-tools)
@@ -52,7 +49,7 @@ Feel free to check the issues page.
 
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
-## Badges
+## Badges Categories
 
 ### 🧑‍💻 Languages
 

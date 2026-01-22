@@ -1,6 +1,13 @@
 # Markdown Badge Catalog
 
-A ready-to-copy collection of badges for your GitHub READMEs, personal sites, and project documentation.
+This `markdown` file contains a collection of badges without `labels`. You can easily copy and paste the `markdown` code to include these badges in your own README files or documentation.
+
+## Table of Contents
+
+- [🧑‍💻 Languages](#-languages)
+- [🛠️ Build Tools \& Package Managers](#️-build-tools--package-managers)
+- [🎮 Engines \& Frameworks](#-engines--frameworks)
+- [🟢 Project Status](#-project-status)
 
 ## Badges
 
@@ -70,19 +77,5 @@ A ready-to-copy collection of badges for your GitHub READMEs, personal sites, an
 | Maintenance       | ![Maintenance](https://img.shields.io/badge/Maintenance-lightseagreen?style=flat)        | `![Maintenance](https://img.shields.io/badge/Status-Maintenance-lightseagreen?style=flat)`        |
 | Alpha             | ![Alpha](https://img.shields.io/badge/Alpha-lightpink?style=flat)                        | `![Alpha](https://img.shields.io/badge/Status-Alpha-lightpink?style=flat)`                        |
 | Deprecated        | ![Deprecated](https://img.shields.io/badge/Deprecated-lightgrey?style=flat)              | `![Deprecated](https://img.shields.io/badge/Status-Deprecated-lightgrey?style=flat)`              |
-
-[↑ Back to top](#markdown-badge-catalog)
-
-### 📌 Dynamic Badges – Quick Examples
-
-Replace `your-username`, `your-repo`, `your-package` etc. with real values.
-
-| Type           | Markdown Example                                                                                                                                                                | Purpose                   |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| npm version    | [![npm](https://img.shields.io/npm/v/your-package?style=flat&logo=npm)](https://www.npmjs.com/package/your-package)                                                             | Latest version on npm     |
-| GitHub Actions | [![CI](https://img.shields.io/github/actions/workflow/status/your-username/your-repo/ci.yml?style=flat&logo=githubactions)](https://github.com/your-username/your-repo/actions) | Build / CI status         |
-| Code Coverage  | [![Coverage](https://img.shields.io/codecov/c/gh/your-username/your-repo?style=flat&logo=codecov)](https://codecov.io/gh/your-username/your-repo)                               | Test coverage %           |
-| Latest Release | [![Release](https://img.shields.io/github/v/release/your-username/your-repo?style=flat&logo=github)](https://github.com/your-username/your-repo/releases)                       | Latest GitHub release tag |
-| Docker Pulls   | [![Pulls](https://img.shields.io/docker/pulls/yourusername/yourimage?style=flat&logo=docker)](https://hub.docker.com/r/yourusername/yourimage)                                  | Docker Hub pulls count    |
 
 [↑ Back to top](#markdown-badge-catalog)
