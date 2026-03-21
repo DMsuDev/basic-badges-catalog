@@ -1,0 +1,26 @@
+name: Link Checker
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "**.md"
+  pull_request:
+    branches: [master]
+    paths:
+      - "**.md"
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    name: Check Markdown Links
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Markdown Link Check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: "yes"
+          use-verbose-mode: "yes"
