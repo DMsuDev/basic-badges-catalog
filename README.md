@@ -5,49 +5,50 @@ This **README.md** serves as a **basic badge catalog** for your GitHub READMEs, 
 
 If you want to change the style, you can use:
 
-- `style=flat` → minimal & classic
-- `style=flat-square` → modern & compact  
-- `style=for-the-badge` → bold & eye-catching (great for 4–8 hero badges at the top of your README)
-- `style=plastic` → 3D & glossy
-- `style=social` → social media style
+- `style=flat` minimal & classic
+- `style=flat-square` modern & compact
+- `style=for-the-badge` bold & eye-catching
+- `style=plastic` 3D & glossy
+- `style=social` social media style
 
 These badges share the same format, but differ in style. For more variations, check [badges.md](docs/badges.md)
 
+## Usage
+
+To use these badges, simply copy the Markdown code provided for each badge and paste it into your README.md or any Markdown file.
+
+You can press `Ctrl` + `F` (or `Cmd` + `F` on **Mac**) to search for specific _badges_ or _categories_.
+
 ## Table of Contents
 
-- [Badges Categories](#badges-categories)
-  - [🧑‍💻 Languages](#-languages)
-  - [🛠️ Compilers](#️-compilers)
-  - [🛠️ Build Tools](#️-build-tools)
-  - [📦 Runtime \& Package Managers](#-runtime--package-managers)
-  - [🎮 Engines \& Frameworks](#-engines--frameworks)
-  - [🧑‍💻 IDEs \& Editors](#-ides--editors)
-  - [🎨 Graphics APIs](#-graphics-apis)
-  - [🧰 Version Control / GitHub](#-version-control--github)
-  - [🟢 Status / Development](#-status--development)
-  - [🖥️ Platforms](#️-platforms)
-  - [📜 Licenses](#-licenses)
-  - [⚙️ Project Type](#️-project-type)
-- [📌 Dynamic Badges Overview](#-dynamic-badges-overview)
-  - [🔧 How to Use Them](#-how-to-use-them)
-  - [📦 Common Use Cases](#-common-use-cases)
-  
+- [Markdown Badge Catalog](#markdown-badge-catalog)
+  - [Usage](#usage)
+  - [Table of Contents](#table-of-contents)
+  - [⭐ Recommended Resource](#-recommended-resource)
+  - [Badges Categories](#badges-categories)
+    - [🧑‍💻 Languages](#-languages)
+    - [🛠️ Compilers](#️-compilers)
+    - [🛠️ Build Tools](#️-build-tools)
+    - [📦 Runtime \& Package Managers](#-runtime--package-managers)
+    - [🎮 Engines \& Frameworks](#-engines--frameworks)
+    - [🧑‍💻 IDEs \& Editors](#-ides--editors)
+    - [🎨 Graphics APIs](#-graphics-apis)
+    - [🧰 Version Control / GitHub](#-version-control--github)
+    - [🟢 Status / Development](#-status--development)
+    - [🖥️ Platforms](#️-platforms)
+    - [📜 Licenses](#-licenses)
+    - [⚙️ Project Type](#️-project-type)
+  - [📌 Dynamic Badges Overview](#-dynamic-badges-overview)
+    - [🔧 How to Use Them](#-how-to-use-them)
+    - [📦 Common Use Cases](#-common-use-cases)
+  - [🤝 Contributing](#-contributing)
+  - [📜 License](#-license)
+
 ## ⭐ Recommended Resource
 
 If you are looking for a **more complete, and extensive collection of Markdown badges**, I highly recommend checking out the following repository:
 
 [Visit markdown-badges repository](https://github.com/Ileriayo/markdown-badges)
-
-## 🤝 Contributing
-
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat)
-
-Contributions, issues and feature requests are welcome.  
-Feel free to check the issues page.
-
-## 📜 License
-
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
 
 ## Badges Categories
 
@@ -56,13 +57,13 @@ Feel free to check the issues page.
 | Name       | Badge                                                                                                                                                        | Markdown                                                                                                                                                       |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Go         | [![Go](https://img.shields.io/badge/Language-Go-00ADD8?style=flat&logo=go&logoColor=white)](https://go.dev/)                                                 | `[![Go](https://img.shields.io/badge/Language-Go-00ADD8?style=flat&logo=go&logoColor=white)](https://go.dev/)`                                                 |
-| C          | [![C](https://img.shields.io/badge/Language-C-A8B9CC?style=flat&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))                             | `[![C](https://img.shields.io/badge/Language-C-A8B9CC?style=flat&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))`                             |
+| C          | [![C](https://img.shields.io/badge/Language-C-A8B9CC?style=flat&logo=c)](<https://en.wikipedia.org/wiki/C_(programming_language)>)                           | `[![C](https://img.shields.io/badge/Language-C-A8B9CC?style=flat&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))`                             |
 | C++        | [![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)](https://isocpp.org/)                                | `[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)](https://isocpp.org/)`                                |
 | Python     | [![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)                             | `[![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)`                             |
 | JavaScript | [![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | `[![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=flat&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)` |
 | TypeScript | [![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)         | `[![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)`         |
 | Rust       | [![Rust](https://img.shields.io/badge/Language-Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)                                | `[![Rust](https://img.shields.io/badge/Language-Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)`                                |
-| Java       | [![Java](https://img.shields.io/badge/Language-Java-007396?style=flat&logo=java&logoColor=white)](https://www.java.com/)                                     | `[![Java](https://img.shields.io/badge/Language-Java-007396?style=flat&logo=java&logoColor=white)](https://www.java.com/)`                                     |
+| Java       | [![Java](https://img.shields.io/badge/Language-Java-007396?style=flat)](https://www.java.com/)                                                               | `[![Java](https://img.shields.io/badge/Language-Java-007396?style=flat)](https://www.java.com/)`                                                               |
 | PHP        | [![PHP](https://img.shields.io/badge/Language-PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)                                         | `[![PHP](https://img.shields.io/badge/Language-PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)`                                         |
 | Ruby       | [![Ruby](https://img.shields.io/badge/Language-Ruby-CC342D?style=flat&logo=ruby&logoColor=white)](https://www.ruby-lang.org/)                                | `[![Ruby](https://img.shields.io/badge/Language-Ruby-CC342D?style=flat&logo=ruby&logoColor=white)](https://www.ruby-lang.org/)`                                |
 | Swift      | [![Swift](https://img.shields.io/badge/Language-Swift-F05138?style=flat&logo=swift&logoColor=white)](https://swift.org/)                                     | `[![Swift](https://img.shields.io/badge/Language-Swift-F05138?style=flat&logo=swift&logoColor=white)](https://swift.org/)`                                     |
@@ -148,7 +149,7 @@ Feel free to check the issues page.
 | Name          | Badge                                                                                                                                                     | Markdown                                                                                                                                                        |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | VS Code       | ![VSCode](https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=flat)                                                                                | `[![VSCode](https://img.shields.io/badge/Editor-VS%20Code-007ACC?style=flat)](https://code.visualstudio.com/)`                                                  |
-| Visual Studio | ![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=flat&logo=visualstudio&logoColor=white)                                    | `[![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=flat&logo=visualstudio&logoColor=white)](https://visualstudio.microsoft.com/)` |
+| Visual Studio | ![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=flat)                                                                      | `[![Visual Studio](https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=flat)](https://visualstudio.microsoft.com/)`                                   |
 | JetBrains     | ![JetBrains](https://img.shields.io/badge/IDE-JetBrains-000000?style=flat&logo=jetbrains&logoColor=white)                                                 | `[![JetBrains](https://img.shields.io/badge/IDE-JetBrains-000000?style=flat&logo=jetbrains&logoColor=white)](https://www.jetbrains.com/)`                       |
 | Sublime Text  | ![Sublime](https://img.shields.io/badge/Editor-Sublime%20Text-FF9800?style=flat&logo=sublimetext&logoColor=white)                                         | `[![Sublime Text](https://img.shields.io/badge/Editor-Sublime%20Text-FF9800?style=flat&logo=sublimetext&logoColor=white)](https://www.sublimetext.com/)`        |
 | IntelliJ IDEA | [![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000000?style=flat&logo=intellijidea&logoColor=white)](https://www.jetbrains.com/idea/) | `[![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000000?style=flat&logo=intellijidea&logoColor=white)](https://www.jetbrains.com/idea/)`     |
@@ -197,28 +198,25 @@ Feel free to check the issues page.
 
 ### 🖥️ Platforms
 
-| Name                      | Badge                                                                                                       | Markdown                                                                                                      |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Windows                   | ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat)                             | `![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey?style=flat)`                             |
-| Linux                     | ![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey?style=flat)                               | `![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey?style=flat)`                               |
-| macOS                     | ![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey?style=flat)                               | `![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey?style=flat)`                               |
-| Android                   | ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white)   | `![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white)`   |
-| iOS                       | ![Platform](https://img.shields.io/badge/Platform-iOS-000000?style=flat&logo=apple&logoColor=white)         | `![Platform](https://img.shields.io/badge/Platform-iOS-000000?style=flat&logo=apple&logoColor=white)`         |
-| Web                       | ![Platform](https://img.shields.io/badge/Platform-Web-61DAFB?style=flat&logo=web&logoColor=white)           | `![Platform](https://img.shields.io/badge/Platform-Web-61DAFB?style=flat&logo=web&logoColor=white)`           |
-| Windows \| Linux          | ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=flat)               | `![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=flat)`               |
-| Windows \| Linux \| macOS | ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat) | `![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=flat)` |
+| Name    | Badge                                                                                                     | Markdown                                                                                                    |
+| ------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Windows | ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat)                              | `![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=flat)`                              |
+| Linux   | ![Platform](https://img.shields.io/badge/Platform-Linux-2d2d2d?style=flat&logo=linux&logoColor=white)     | `![Platform](https://img.shields.io/badge/Platform-Linux-2d2d2d?style=flat&logo=linux&logoColor=white)`     |
+| iOS     | ![Platform](https://img.shields.io/badge/Platform-iOS-000000?style=flat&logo=apple&logoColor=white)       | `![Platform](https://img.shields.io/badge/Platform-iOS-000000?style=flat&logo=apple&logoColor=white)`       |
+| Android | ![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white) | `![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=flat&logo=android&logoColor=white)` |
+| Web     | ![Platform](https://img.shields.io/badge/Platform-Web-E34F26?style=flat&logo=html5&logoColor=white)       | `![Platform](https://img.shields.io/badge/Platform-Web-E34F26?style=flat&logo=html5&logoColor=white)`       |
 
 [↑ Back to top](#markdown-badge-catalog)
 
 ### 📜 Licenses
 
-| Name         | Badge                                                                                                                            | Markdown                                                                                                                           |
-| ------------ | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| MIT          | [![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)                                                 | `[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)`                                                 |
-| GPLv3        | [![License](https://img.shields.io/badge/License-GPLv3-blue?style=flat)](https://www.gnu.org/licenses/gpl-3.0)                   | `[![License](https://img.shields.io/badge/License-GPLv3-blue?style=flat)](https://www.gnu.org/licenses/gpl-3.0)`                   |
-| Apache 2.0   | [![License](https://img.shields.io/badge/License-Apache%202.0-red?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)      | `[![License](https://img.shields.io/badge/License-Apache%202.0-red?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)`      |
-| BSD-3-Clause | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue?style=flat)](https://opensource.org/licenses/BSD-3-Clause) | `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue?style=flat)](https://opensource.org/licenses/BSD-3-Clause)` |
-| MPL-2.0      | [![License](https://img.shields.io/badge/License-MPL%202.0-orange?style=flat)](https://www.mozilla.org/en/MPL/)                  | `[![License](https://img.shields.io/badge/License-MPL%202.0-orange?style=flat)](https://www.mozilla.org/en/MPL/)`                  |
+| Name         | Badge                                                                                                                                                         | Markdown                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MIT          | [![License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=open-source-initiative&logoColor=white)](LICENSE)                                  | `[![License](https://img.shields.io/badge/License-MIT-green?style=flat&logo=open-source-initiative&logoColor=white)](LICENSE)`                                  |
+| GPLv3        | [![License](https://img.shields.io/badge/License-GPLv3-blue?style=flat&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/gpl-3.0)                       | `[![License](https://img.shields.io/badge/License-GPLv3-blue?style=flat&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/gpl-3.0)`                       |
+| Apache 2.0   | [![License](https://img.shields.io/badge/License-Apache%202.0-red?style=flat&logo=apache&logoColor=white)](https://www.apache.org/licenses/LICENSE-2.0)       | `[![License](https://img.shields.io/badge/License-Apache%202.0-red?style=flat&logo=apache&logoColor=white)](https://www.apache.org/licenses/LICENSE-2.0)`       |
+| BSD-3-Clause | [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue?style=flat&logo=openbsd&logoColor=white)](https://opensource.org/licenses/BSD-3-Clause) | `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue?style=flat&logo=openbsd&logoColor=white)](https://opensource.org/licenses/BSD-3-Clause)` |
+| MPL-2.0      | [![License](https://img.shields.io/badge/License-MPL%202.0-orange?style=flat&logo=mozilla&logoColor=white)](https://www.mozilla.org/en/MPL/)                  | `[![License](https://img.shields.io/badge/License-MPL%202.0-orange?style=flat&logo=mozilla&logoColor=white)](https://www.mozilla.org/en/MPL/)`                  |
 
 [↑ Back to top](#markdown-badge-catalog)
 
@@ -261,7 +259,7 @@ They automatically reflect the current status of a project, such as package vers
 | Name           | Badge                                                                                                                              | Markdown                                                                                                                                                                               |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | npm            | ![npm version](https://img.shields.io/npm/v/your-package-name?logo=nodedotjs)                                                      | `[![npm version](https://img.shields.io/npm/v/your-package-name?logo=nodedotjs)](https://www.npmjs.com/)`                                                                              |
-| PyPI           | ![PyPI version](https://img.shields.io/pypi/v/your-package-name?logo=python)                                                       | `[![PyPI version](https://img.shields.io/pypi/v/your-package-name?logo=python)](https://pypi.org/)`                                                                                    |
+| PyPI           | ![PyPI version](https://img.shields.io/pypi/v/your-package-name?logo=pypi&logoColor=white)                                         | `[![PyPI version](https://img.shields.io/pypi/v/your-package-name?logo=pypi&logoColor=white)](https://pypi.org/)`                                                                      |
 | Crates.io      | ![Crates.io](https://img.shields.io/crates/v/your-crate-name?logo=rust&logoColor=white)                                            | `[![Crates.io](https://img.shields.io/crates/v/your-crate-name?logo=rust&logoColor=white)](https://crates.io/)`                                                                        |
 | GitHub Actions | ![GitHub Actions](https://img.shields.io/github/actions/workflow/status/your-user/your-repo/ci.yml?branch=main&logo=githubactions) | `[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/your-user/your-repo/ci.yml?branch=main&logo=githubactions)](https://github.com/your-user/your-repo/actions)` |
 | Codecov        | ![Codecov](https://img.shields.io/codecov/c/gh/your-user/your-repo?logo=codecov)                                                   | `[![Codecov](https://img.shields.io/codecov/c/gh/your-user/your-repo?logo=codecov)](https://codecov.io/)`                                                                              |
@@ -269,3 +267,14 @@ They automatically reflect the current status of a project, such as package vers
 | GitHub Release | ![GitHub Release](https://img.shields.io/github/v/release/your-user/your-repo?logo=github)                                         | `[![GitHub Release](https://img.shields.io/github/v/release/your-user/your-repo?logo=github)](https://github.com/your-user/your-repo/releases)`                                        |
 
 [↑ Back to top](#markdown-badge-catalog)
+
+## 🤝 Contributing
+
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=flat)
+
+Contributions, issues and feature requests are welcome.  
+Feel free to check the issues page.
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
